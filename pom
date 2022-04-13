@@ -1,0 +1,8 @@
+indBy(xpath="//input[@name= 'firstname']")private WebElement Fname;
+	  @FindBy(xpath="//input[@name= 'lastname']")private WebElement Lname;
+	  @FindBy(xpath="//input[@name='reg_email__']")private WebElement Email;
+	  @FindBy(xpath="//input[@data-type='password']")private WebElement Password;
+	  @FindBy(xpath="//button[@type='submit']")private WebElement Logbtn;
+	  @FindBy(xpath="//select[@title='Month']")private WebElement Month;
+	  @FindBy(xpath="//select[@title='Day']")private WebElement Day;
+	  @FindBy(xpath="//select[@title='Year']")private WebElement Year;
