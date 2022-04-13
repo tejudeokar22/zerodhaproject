@@ -1,0 +1,4 @@
+FileInputStream ff = new  FileInputStream(Paths.Excelpath);
+        Sheet sht= WorkbookFactory.create(ff).getSheet("Sheet2");
+    	   String st = sht.getRow(row).getCell(cell).getStringCellValue();
+		return st;
